@@ -5,6 +5,7 @@ on:
       java_ver:
         default: '17'
         description: Input the desired java version to be setup
+        type: string
 jobs:
   jdk:
     name: setup java
